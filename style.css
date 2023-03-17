@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 150px;
+    height: 30px;
+    margin-right: 50px;
+    display: flex;
+}
+
+.new {
+    width: 35px;
+    height: 35px;
+    background: #a85353;
+    display: none;
+}
+
+.new.active {
+    display: block;
+}
